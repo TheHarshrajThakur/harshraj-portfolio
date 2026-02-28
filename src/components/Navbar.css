@@ -8,7 +8,7 @@
     z-index: 1000;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     padding: 1rem 2rem;
-    background: rgba(15, 15, 15, 0.4);
+    background: var(--glass-bg);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -18,7 +18,7 @@
 
 .navbar.scrolled {
     padding: 0.8rem 2rem;
-    background: rgba(15, 15, 15, 0.75);
+    background: var(--bg-tertiary);
     border-color: rgba(255, 255, 255, 0.15);
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.7), inset 0 0 15px rgba(255, 255, 255, 0.08);
     width: 80%;
