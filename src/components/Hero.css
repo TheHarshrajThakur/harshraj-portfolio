@@ -19,41 +19,6 @@
     overflow: hidden;
 }
 
-.blob {
-    position: absolute;
-    filter: blur(100px);
-    border-radius: 50%;
-    opacity: 0.5;
-    animation: float 15s infinite ease-in-out alternate;
-}
-
-.blob-1 {
-    top: -10%;
-    left: -10%;
-    width: 600px;
-    height: 600px;
-    background: var(--accent-secondary);
-}
-
-.blob-2 {
-    bottom: -10%;
-    right: -10%;
-    width: 500px;
-    height: 500px;
-    background: var(--accent-primary);
-    animation-delay: -5s;
-}
-
-.blob-3 {
-    top: 30%;
-    left: 40%;
-    width: 400px;
-    height: 400px;
-    background: var(--accent-tertiary);
-    animation-delay: -10s;
-    opacity: 0.4;
-    filter: blur(120px);
-}
 
 .grid-overlay {
     position: absolute;

@@ -38,11 +38,8 @@ const Hero = () => {
 
     return (
         <section id="home" className="hero-section">
-            {/* Background Particles/Gradient */}
+            {/* Background Grid Overlay */}
             <div className="hero-background">
-                <div className="blob blob-1"></div>
-                <div className="blob blob-2"></div>
-                <div className="blob blob-3"></div>
                 <div className="grid-overlay"></div>
             </div>
 
