@@ -30,7 +30,7 @@ const Skills = () => {
             title: "Full Stack Development",
             skills: [
                 { name: "MongoDB", level: 80, icon: <SiMongodb color="#47A248" /> },
-                { name: "Express.js", level: 75, icon: <SiExpress color="#fff" /> },
+                { name: "Express.js", level: 75, icon: <SiExpress color="var(--text-primary)" /> },
                 { name: "React", level: 85, icon: <SiReact color="#61DAFB" /> },
                 { name: "Node.js", level: 80, icon: <SiNodedotjs color="#339933" /> },
                 { name: "JavaScript", level: 90, icon: <SiJavascript color="#F7DF1E" /> },
